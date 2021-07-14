@@ -27,17 +27,18 @@ This portion assumes AWS CLI for user hosting cluster has been configured.
 7. Confirm installation by running on the cmd: rosa verify permissions
 8. If output is "AWS SCP policies ok" the installation has been successful
 
-ROSA CLI
-Below are the instructions about login in rosa CLI and other useful commands.
+### ROSA CLI
+
+**Below are the instructions about login in rosa CLI and other useful commands.**
 
 1. Go to https://cloud.redhat.com/openshift/token/rosa/show and get Red Hat OpenShit -> API token 
 2. To log in rosa CLI run on cmd: rosa login --token="TOKEN" and press enter
 
-To get started with your cluster visit the link below:
+**To get started with your cluster visit the link below:**
 
 https://aws.amazon.com/blogs/aws/red-hat-openshift-service-on-aws-now-generally-availably/
 
-To verify your AWS account has all the pre-requisites for launching a cluster visit the link below:
+**To verify your AWS account has all the pre-requisites for launching a cluster visit the link below:**
 
 https://docs.openshift.com/rosa/rosa_getting_started/rosa-aws-prereqs.html
 
