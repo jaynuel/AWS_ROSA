@@ -16,7 +16,8 @@ Before you configure your environment create an account on Red Hat Openshift. Tr
 https://cloud.redhat.com/openshift/
 
 ### AWS
-This portion assumes AWS CLI for user hosting cluster has been configured. 
+
+**This portion assumes AWS CLI for user hosting cluster has been configured.** 
 
 1. Create user using IAM with programmatic and admin rights and copy the key and secret to your text editor
 2. Setup and configure DNS using Route 53
