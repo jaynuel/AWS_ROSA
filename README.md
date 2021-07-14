@@ -3,7 +3,8 @@
 
 
 **Setting up AWS ROSA CLI on Windows 10 & Running Basic Commands**
-(For info on Linux: https://github.com/openshift/rosa)
+
+(For Linux: https://github.com/openshift/rosa)
 
 ### Red Hat OpenShift
 Before you configure your environment create an account on Red Hat Openshift. Trial accounts available.
@@ -39,7 +40,8 @@ https://docs.openshift.com/rosa/rosa_getting_started/rosa-aws-prereqs.html
 
 - To verify rosa setup: rosa verify permissions
 - To verify AWS user is correct: rosa whoami
--To check quota (resources available on AWS: rosa verify quota
+- To check quota (resources available on AWS: rosa verify quota
+ https://docs.openshift.com/rosa/rosa_getting_started/rosa-required-aws-service-quotas.html
 - To verify if your account is ready for deployment: rosa init
 - To create a cluster: rosa create cluster --cluster-name=<cluster_name> 
 - To edit cluster: rosa edit cluster --cluster=mycluster --private 
@@ -52,7 +54,9 @@ https://docs.openshift.com/rosa/rosa_getting_started/rosa-aws-prereqs.html
 
 **Other Resources:**
 https://docs.openshift.com/container-platform/4.7/welcome/index.html
+
 https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/rosa_cli/rosa-get-started-cli
+
 https://aws.amazon.com/rosa/
 
 
