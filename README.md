@@ -1,3 +1,6 @@
+
+![image](https://user-images.githubusercontent.com/71087767/125652025-58592746-bd78-4331-a9af-be818d7530e0.png)
+
 # AWS_ROSA
 ## Introduction to AWS ROSA
 
@@ -55,6 +58,7 @@ https://docs.openshift.com/rosa/rosa_getting_started/rosa-aws-prereqs.html
 
 
 **Other Resources:**
+
 https://docs.openshift.com/container-platform/4.7/welcome/index.html
 
 https://access.redhat.com/documentation/en-us/red_hat_openshift_service_on_aws/4/html/rosa_cli/rosa-get-started-cli
